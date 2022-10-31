@@ -2,46 +2,69 @@
 <html>
 <head>
   <title>Todo App</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+  <link rel="stylesheet"
+        href="style.css"
+        media="screen"
+        charset="utf-8">
 </head>
 
 <body class="body">
 
   <header class="header">
-    <img class="header__img" src="./eisenhower-matrix.jpg" alt="Eisenhower's method matrix">
-    <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <img class="header__img"
+         src="./eisenhower-matrix.jpg"
+         alt="Eisenhower's method matrix">
+    <a  class="header__link"
+        href="https://goal-life.com/page/method/matrix-eisenhower">
+        Want more details?
+    </a>
   </header>
 
   <main class="main">
 
-    <section class="add-task" id="add-task">
-      <label class="add-task__label label" for="new-task">Add Item</label>
+    <section class="add-task"
+             id="add-task">
+      <label class="add-task__label label"
+             for="new-task">Add Item</label>
       <div class="add-task__wrapper">
-        <input class="add-task__wrapper__input"id="new-task"  type="text">
+        <input class="add-task__wrapper__input"
+               id="new-task"
+               type="text">
         <button class="add-task__wrapper__btn btn">Add</button>
       </div>
     </section>
 
     <section class="todo">
       <h3 class="todo__title title">Todo</h3>
-      <ul class="todo__list" id="todo">
+      <ul class="todo__list"
+          id="todo">
         <li class="todo__list__item item">
-          <input class="item__input input_checkbox" type="checkbox">
+          <input class="item__input input_checkbox"
+                 type="checkbox">
           <label class="item__label label__wrapper">Pay Bills</label>
-          <input class="item__input input__wrapper input_txt" type="text" >
+          <input class="item__input input__wrapper input_txt"
+                 type="text" >
           <button class="item__btn btn edit">Edit</button>
           <button class="item__btn btn delete">
-            <img class="item_img delete-icon" src="./remove.svg" alt="Remove button">
+            <img class="item_img delete-icon"
+                 src="./remove.svg"
+                 alt="Remove button">
           </button>
         </li>
         <li class="todo__list__item item edit-mode">
-          <input class="item__input input_checkbox" type="checkbox">
+          <input class="item__input input_checkbox"
+                 type="checkbox">
           <label class="item__label label__wrapper">Go Shopping</label>
-          <input class="item__input input__wrapper input_txt" type="text" value="Go Shopping" >
+          <input class="item__input input__wrapper input_txt"
+                 type="text"
+                 value="Go Shopping" >
           <button class="item__btn btn edit">Save</button>
           <button class="item__btn btn delete">
-            <img class="item__img delete-icon" src="./remove.svg" alt="Remove button">
+            <img class="item__img delete-icon"
+                 src="./remove.svg"
+                 alt="Remove button">
           </button>
         </li>
       </ul>
@@ -51,12 +74,17 @@
       <h3 class="done__title">Completed</h3>
       <ul class="done__list done" id="done">
         <li class="done__list__item item">
-          <input class="item__input input_checkbox" type="checkbox" checked>
+          <input class="item__input input_checkbox"
+                 type="checkbox"
+                 checked>
           <label class="item__label label__wrapper">See the Doctor</label>
-          <input class="item__input input__wrapper input_txt" type="text">
+          <input class="item__input input__wrapper input_txt"
+                 type="text">
           <button class="item__btn btn edit">Edit</button>
           <button class="item__btn btn delete">
-            <img class="item__img delete-icon" src="./remove.svg" alt="Remove button">
+            <img class="item__img delete-icon"
+                 src="./remove.svg"
+                 alt="Remove button">
           </button>
         </li>
       </ul>
